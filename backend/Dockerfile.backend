@@ -1,0 +1,10 @@
+
+FROM openjdk:17-alpine3.13
+
+WORKDIR /app
+
+COPY target/backend.jar /app/
+
+EXPOSE 8080
+
+CMD [ "java", "-jar", "backend.jar" ]
