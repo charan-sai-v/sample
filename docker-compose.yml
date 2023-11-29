@@ -7,7 +7,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: awsawsaws
       MYSQL_DATABASE: project
-      MYSQL_USER: root
+      MYSQL_USER: user
       MYSQL_PASSWORD: root
     ports:
       - "3306:3306"
