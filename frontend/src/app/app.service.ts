@@ -8,7 +8,7 @@ import { User } from './User';
 })
 export class AppService {
 
-  private url = "http://54.172.175.144:8080"; // production 
+  private url = "http://3.84.254.201:8080/"; // production 
 
   constructor(private http: HttpClient) { }
 
